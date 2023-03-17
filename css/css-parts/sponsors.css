@@ -1,0 +1,30 @@
+
+.sponsors-area {
+    display: flex;
+    padding: 120px 0px;
+}
+.sponsors-container {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px 15px;
+    display: flex;
+    gap: 50px;
+}
+.sponsors-item {
+  text-align: center;
+  width: 162px;
+  height: 70px;
+}
+.sponsors-item img {
+    width: auto;
+    text-align: center;
+    line-height: 70px;
+    vertical-align: middle;
+    margin: auto;
+    opacity: .5;
+    margin: 0px 30px;
+    transition: 0.5s;
+}
+.sponsors-item img:hover {
+    opacity: 1;
+}
