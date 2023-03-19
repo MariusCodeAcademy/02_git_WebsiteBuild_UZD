@@ -1,0 +1,35 @@
+/* header */
+
+header {
+  font-family: 'Poppins';
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 100;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1170px;
+  align-items: center;
+}
+#selected {
+  color: #fab700;
+}
+.mainNav {
+  display: flex;
+}
+.mainNav a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  transition-duration: 1s;
+  margin-left: 30px;
+  line-height: 70px;
+
+}
+.mainNav a:hover {
+  color: #fab700;
+}
